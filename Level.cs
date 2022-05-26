@@ -1,10 +1,11 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
-using System.Numerics;
 using System.Text;
 
 namespace Lopale
@@ -16,7 +17,7 @@ namespace Lopale
         public void loadLevel(string pLevel)
         {
 
-
+            var contentManager = ServiceLocator.GetService<ContentManager>();
 
             string[] data = File.ReadAllLines("Content/Levels/"+ pLevel);
             int nbLine = 0;
@@ -30,13 +31,13 @@ namespace Lopale
 
                   if (col != "0")
                     {
-                        /*  Brick bk = new Brick(mainGame.Content.Load<Texture2D>("brick0" + col));
-                        bk.Position = new Vector2(
+                        Brick bk = new Brick(contentManager.Load<Texture2D>("brick0" + col));
+                         bk.Position = new Vector2(
                                  nbCol * bk.Texture.Width,
                                  nbLine * bk.Texture.Height
                              );
-                         listActors.Add(bk);
-                        */
+                          //listActors.Add(bk);
+                        
                         Debug.WriteLine(col);
                     }
                   

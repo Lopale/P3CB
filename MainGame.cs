@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -21,6 +22,8 @@ namespace Lopale // Personnaliser selon le jeu
 
             //Service locator windows
             ServiceLocator.RegisterService<GameWindow>(Window);
+            // Ajouter Variable content dans mon service Locator
+            ServiceLocator.RegisterService<ContentManager>(Content);
         }
 
         protected override void Initialize()
