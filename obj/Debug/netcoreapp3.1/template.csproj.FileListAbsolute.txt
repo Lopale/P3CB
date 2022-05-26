@@ -1,0 +1,81 @@
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\template.exe
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\template.deps.json
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\template.runtimeconfig.json
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\template.runtimeconfig.dev.json
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\template.dll
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\template.pdb
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\obj\Debug\netcoreapp3.1\template.csproj.AssemblyReference.cache
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\obj\Debug\netcoreapp3.1\template.GeneratedMSBuildEditorConfig.editorconfig
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\obj\Debug\netcoreapp3.1\template.AssemblyInfoInputs.cache
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\obj\Debug\netcoreapp3.1\template.AssemblyInfo.cs
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\obj\Debug\netcoreapp3.1\template.csproj.CoreCompileInputs.cache
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\obj\Debug\netcoreapp3.1\template.csproj.CopyComplete
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\obj\Debug\netcoreapp3.1\template.dll
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\obj\Debug\netcoreapp3.1\template.pdb
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\obj\Debug\netcoreapp3.1\template.genruntimeconfig.cache
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\Content\Mainfont.xnb
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\Content\button.xnb
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\Content\cool.ogg
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\Content\cool.xnb
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\Content\explode.xnb
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\Content\meteor.xnb
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\Content\ship.xnb
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\Content\techno.ogg
+E:\___Formation Developpeur JV\atelier\Atelier 03 PROGRAMMATION AVANCÉE C# ET MONOGAME\07 Atelier  Construire un jeu en C# avec Monogame\mytemplate\template\bin\Debug\netcoreapp3.1\Content\techno.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\button.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\cool.ogg
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\cool.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\explode.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\Mainfont.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\meteor.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\ship.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\techno.ogg
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\techno.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\template.exe
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\template.deps.json
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\template.runtimeconfig.json
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\template.runtimeconfig.dev.json
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\template.dll
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\template.pdb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\obj\Debug\netcoreapp3.1\template.csproj.AssemblyReference.cache
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\obj\Debug\netcoreapp3.1\template.GeneratedMSBuildEditorConfig.editorconfig
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\obj\Debug\netcoreapp3.1\template.AssemblyInfoInputs.cache
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\obj\Debug\netcoreapp3.1\template.AssemblyInfo.cs
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\obj\Debug\netcoreapp3.1\template.csproj.CoreCompileInputs.cache
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\obj\Debug\netcoreapp3.1\template.csproj.CopyComplete
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\obj\Debug\netcoreapp3.1\template.dll
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\obj\Debug\netcoreapp3.1\template.pdb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\obj\Debug\netcoreapp3.1\template.genruntimeconfig.cache
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\ball-basic.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\brick01.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\brick02.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\brick03.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\brick04.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\brick05.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\brick06.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\brick07.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\brick08.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\brick09.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\racket-basic.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\Levels\level01
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\Levels\level20220523115715
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\Levels\level20220523133655
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\Levels\level20220523144437

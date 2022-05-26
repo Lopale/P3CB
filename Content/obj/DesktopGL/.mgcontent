@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/ball-basic.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick01.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick02.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick03.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick04.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick05.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick06.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick07.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick08.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick09.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/button.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/cool.mp3</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/explode.wav</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/File.spritefont</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/meteor.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/racket-basic.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/techno.mp3</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>Mainfont.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

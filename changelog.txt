@@ -1,0 +1,83 @@
+/* CDC */
+Le jeu doit proposer au minimum :
+
+Plusieurs niveaux (chargés depuis un fichier externe)
+Une architecture objet avec héritage
+Un Service Locator maison (pas celui de Monogame)
+Un gameplay original
+
+Voici ce que vous pouvez ajouter pour gagner des points en plus dans la rubrique "concepts avancés" :
+
+L'utilisation de Design Patterns tel que le Object Pool ou le State (machine à état)
+Des effets visuels (particules, traînées, cam shake, fonds animés, etc.)
+Un éditeur de niveau (qui peut être programmé en Love2D)
+
+-------------------------------------------------------------------------------------------------------
+
+/* Aspect Technique */
+Découper en class (controle, player, level, ball, brique)
+Créer un service locator pour les touches
+
+
+
+/* Minimal */
+
+  Un menu de choix des niveaux
+  Déplacer la raquette a gauche et à droite
+	Au clavier
+  	  Au pad
+	  A la souris ?
+La raquette ne dépasse pas de l'écran
+Tant qu'elle n'est pas lancé la balle suit le joueur
+  Lancer la balle
+	Barre espace
+	  Bouton A
+	  Click gauche ?
+
+Si la balle est tiré sur la gauche de l'écran elle part à gauche
+Si la balle est tiré sur la droite de l'écran elle part à droite
+  Plus la balle est proche d'un bord plus l'angle est important
+Balle qui rebondi sur les côté
+Balle qui rebondi sur la raquette
+  Balle qui rebondi avec un angle différent sur la raquette
+Le rebond de la balle provoque un son
+Balle qui disparait une fois le sol atteinds
+  Supprimer une balle de la quantité de balle disponible quand une balle atteint le sol
+Charger les brique d'un niveau textuel
+Les brique se détruisent au contact da la balle
+  Détruitre une brique incrémente le score
+  Détuire toutes les brique d'un niveau le fait gagnier
+Détuire une brique provoque un son 
+  Appuyer sur Esc ferme le jeu
+Fond d'écran animé
+
+  Un générateur de niveau :
+  X Version 1 : juste des 0 et des 1 pour absence / Présence de brique
+	  Version 2 : Plusieurs chiffres possibles pour les différentes couleurs de brique
+	  Version 3 : Plusieurs chiffres possibles pour les différentes couleurs de brique et des bonus
+
+
+/* Premier bonus */
+
+  Secouer l'écran à l'impact de les balle ou des bords (camshak)
+
+  Une brique met deux coup à ce casser, le visuel change au premier coup (fissure)
+
+  Des bonus apparaissent une fois certaines briques cassés :
+	  Gain d'une nouvelle balle
+	  Multiballe
+	  Balle "perforante" (pas de rebond sur les briques et les détruies instanténément) => Si posible limité la durée
+	  Tir laser (tout droit depuis le centre de la raquette)
+  Malus : 
+      La vitesse de la balle augmente un peu à chaque rebonds 
+
+/* Jeu final souhaiter (Possibilité de jouer à deux) */
+
+  Effet de rebond quand la raquette touche les bords
+  Une deuxième raquette peut être contrôle
+  	  Au clavier
+	  Au pad (tester 2eme pad ?)
+  La balle ne peux plus rebondire derrière le 2eme joueur
+  Deux score diffrents
+  Un nombre de balle commune
+  Appuyer sur Esc lance le menu pause
