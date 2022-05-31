@@ -19,6 +19,7 @@ namespace Lopale
         {
 
             listActors.RemoveAll(item => item.ToRemove == true);
+           
         }
         
         public virtual void Load() // Virtuel pour être dérivé obligatoirement

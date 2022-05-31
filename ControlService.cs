@@ -8,7 +8,10 @@ public interface IServiceControl
 {
     bool PressRight();
     bool PressLeft();
+    bool PressUp();
+    bool PressDown();
     bool PressSpace();
+    bool PressEnter();
 
 }
 
@@ -44,9 +47,48 @@ class ControlService : IServiceControl
         }
 
     }
+
+    public bool PressUp()
+    {
+        if (Keyboard.GetState().IsKeyDown(Keys.Up))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    }
+
+
+    public bool PressDown()
+    {
+        if (Keyboard.GetState().IsKeyDown(Keys.Down))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    }
     public bool PressSpace()
     {
         if (Keyboard.GetState().IsKeyDown(Keys.Space))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    }
+    public bool PressEnter()
+    {
+        if (Keyboard.GetState().IsKeyDown(Keys.Enter))
         {
             return true;
         }

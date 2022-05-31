@@ -10,7 +10,7 @@ using System.Text;
     {
         void Add(int pPoint);
         int GetScore();
-    void DisplayScore();
+        string DisplayScore();
     }
 
     class ScoreService : IServiceScore
@@ -33,8 +33,9 @@ using System.Text;
             return scorePoint;
         }
 
-        public void DisplayScore()
+        public string DisplayScore()
         {
-            Debug.WriteLine("Le score est de "+scorePoint);
+            string score = "Le score est de "+scorePoint;
+            return score;
         }
     }

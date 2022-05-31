@@ -4,7 +4,6 @@ using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Drawing;
 using System.IO;
 using System.Text;
 
@@ -13,14 +12,18 @@ namespace Lopale
     class Level
     {
 
-        public Texture2D[] spritelist;
+        public List<IActor> listBrick;
         public void loadLevel(string pLevel)
         {
+            listBrick = new List<IActor>();
 
             var contentManager = ServiceLocator.GetService<ContentManager>();
 
+            Rectangle Screen = ServiceLocator.GetService<GameWindow>().ClientBounds;
+
             string[] data = File.ReadAllLines("Content/Levels/"+ pLevel);
             int nbLine = 0;
+
             foreach (var line in data)
             {
                 int nbCol = 0;
@@ -31,13 +34,23 @@ namespace Lopale
 
                   if (col != "0")
                     {
+
                         Brick bk = new Brick(contentManager.Load<Texture2D>("brick0" + col));
+                       
+
                          bk.Position = new Vector2(
-                                 nbCol * bk.Texture.Width,
-                                 nbLine * bk.Texture.Height
+                                  // Remplacer le 10 par de l'automatique
+                                 ((Screen.Width) - (10 * bk.Texture.Width)) / 2 + nbCol * bk.Texture.Width,
+                                 ((Screen.Height) - (10 * bk.Texture.Height)) / 2 + nbLine * bk.Texture.Height
+
+
+
+                                  //nbCol * bk.Texture.Width,
+                                  //nbLine * bk.Texture.Height
                              );
-                          //listActors.Add(bk);
-                        
+                        //listActors.Add(bk);
+                        listBrick.Add(bk);
+
                         Debug.WriteLine(col);
                     }
                   
@@ -52,6 +65,9 @@ namespace Lopale
             Debug.WriteLine(data);
 
         }
+
+
+
 
     }
 }

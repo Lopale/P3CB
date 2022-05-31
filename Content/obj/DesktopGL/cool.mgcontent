@@ -3,7 +3,7 @@
   <SourceFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/cool.mp3</SourceFile>
   <SourceTime>2016-06-20T15:52:58+02:00</SourceTime>
   <DestFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/bin/DesktopGL/cool.xnb</DestFile>
-  <DestTime>2022-05-26T08:19:13.2796613+02:00</DestTime>
+  <DestTime>2022-05-27T10:05:15.5882424+02:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>SongProcessor</Processor>

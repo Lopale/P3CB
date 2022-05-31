@@ -17,13 +17,13 @@ namespace Lopale
             life = 1;
         }
 
-        public override void TouchedBy(IActor pBy)
+      /*  public override void TouchedBy(IActor pBy)
         {
             if (pBy is Ball)
             {
-                Debug.WriteLine("Ball touche Brick");
+                Debug.WriteLine("Ball touche Brick 1");
             }
-        }
+        } */
 
     }
 }

@@ -20,6 +20,9 @@
     <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/File.spritefont</File>
     <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/meteor.png</File>
     <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/racket-basic.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/sound/ball-bound.wav</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/sound/brick-break.wav</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/sound/explode.wav</File>
     <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/techno.mp3</File>
   </SourceFiles>
   <DestFiles>
@@ -37,6 +40,9 @@
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File>Mainfont.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

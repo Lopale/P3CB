@@ -8,9 +8,21 @@ namespace Lopale
     {
         public int life = 3;
 
+        public string DisplayLife()
+        {
+            string yourLife = "Life : " + life;
+            return yourLife;
+        }
 
-        // Get Life
+        public void looseLife(int pLife)
+        {
+            life = life - pLife;
+        }
+        public void gainLife(int pLife)
+        {
+            life = life + pLife;
+        }
 
-        // Set Life
+
     }
 }

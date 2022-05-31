@@ -188,6 +188,24 @@
 /processorParam:TextureFormat=Color
 /build:racket-basic.png
 
+#begin sound/ball-bound.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sound/ball-bound.wav
+
+#begin sound/brick-break.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sound/brick-break.wav
+
+#begin sound/explode.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sound/explode.wav
+
 #begin techno.mp3
 /importer:Mp3Importer
 /processor:SongProcessor

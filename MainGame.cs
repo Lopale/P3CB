@@ -30,6 +30,12 @@ namespace Lopale // Personnaliser selon le jeu
         {
             // TODO: Add your initialization logic here
 
+
+            _graphics.PreferredBackBufferWidth = 850;
+            _graphics.PreferredBackBufferHeight = 700;
+
+            _graphics.ApplyChanges();
+
             gameState.ChangeScene(GameState.SceneType.Menu);
 
             base.Initialize();

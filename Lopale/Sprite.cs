@@ -8,7 +8,7 @@ namespace Lopale
 {
     public class Sprite : IActor
     {
-        /* IACtor */
+        /* IActor */
         public Vector2 Position { get; set; }
         public Rectangle BoundingBox { get; set; }
         public float vx;
