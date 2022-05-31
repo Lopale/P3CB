@@ -145,12 +145,6 @@
 /processorParam:TextureFormat=Color
 /build:button.png
 
-#begin cool.mp3
-/importer:Mp3Importer
-/processor:SongProcessor
-/processorParam:Quality=Best
-/build:cool.mp3
-
 #begin explode.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -175,6 +169,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:meteor.png
+
+#begin music/game.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:music/game.mp3
+
+#begin music/menu.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:music/menu.mp3
 
 #begin racket-basic.png
 /importer:TextureImporter
@@ -205,10 +211,4 @@
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:sound/explode.wav
-
-#begin techno.mp3
-/importer:Mp3Importer
-/processor:SongProcessor
-/processorParam:Quality=Best
-/build:techno.mp3
 

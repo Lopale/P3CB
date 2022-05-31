@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -32,6 +33,7 @@ namespace Lopale
         private Ball ball;
         private Level level;
         private SoundEffect sndImpact;
+        private Song music;
 
         private bool gameStop = false;
 
@@ -43,7 +45,11 @@ namespace Lopale
         public override void Load()
         {
 
-           // Debug.WriteLine("SceneGame Load");
+            music = mainGame.Content.Load<Song>("music/game");
+            MediaPlayer.Play(music);
+            MediaPlayer.IsRepeating = true;
+
+            // Debug.WriteLine("SceneGame Load");
             sndImpact = mainGame.Content.Load<SoundEffect>("sound/ball-bound");
             sndBreak = mainGame.Content.Load<SoundEffect>("sound/brick-break");
             sndExplode = mainGame.Content.Load<SoundEffect>("sound/explode");

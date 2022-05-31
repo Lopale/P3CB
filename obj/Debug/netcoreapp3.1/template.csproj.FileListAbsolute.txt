@@ -82,3 +82,7 @@ E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\n
 E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\sound\ball-bound.xnb
 E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\sound\brick-break.xnb
 E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\sound\explode.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\music\game.ogg
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\music\game.xnb
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\music\menu.ogg
+E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2\bin\Debug\netcoreapp3.1\Content\music\menu.xnb

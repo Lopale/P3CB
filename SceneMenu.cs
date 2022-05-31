@@ -31,7 +31,7 @@ namespace Lopale
         {
             Debug.WriteLine("SceneMenu Load");
 
-            music = mainGame.Content.Load<Song>("cool");
+            music = mainGame.Content.Load<Song>("music/menu");
             MediaPlayer.Play(music);
             MediaPlayer.IsRepeating = true;
 

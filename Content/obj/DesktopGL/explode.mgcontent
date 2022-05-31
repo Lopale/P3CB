@@ -3,7 +3,7 @@
   <SourceFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/explode.wav</SourceFile>
   <SourceTime>2014-12-06T18:11:40+01:00</SourceTime>
   <DestFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/bin/DesktopGL/explode.xnb</DestFile>
-  <DestTime>2022-05-27T10:05:16.9326081+02:00</DestTime>
+  <DestTime>2022-05-31T14:33:36.4836332+02:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>
