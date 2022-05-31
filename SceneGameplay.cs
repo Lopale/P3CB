@@ -152,11 +152,26 @@ namespace Lopale
 
 
 
+
+
+
                 /* b.ToRemove = true; */
                 sndImpact.Play();
             }
 
-            foreach (IActor Actor in listActors)// Laisser la boucle pour le multiball
+            if (Utils.CollideByBox(ball, MyRacketHaut))
+            {
+
+                MyRacketHaut.TouchedBy(ball);
+                ball.TouchedBy(MyRacketHaut);
+
+                ball.vy = (0 - ball.vy);
+                sndImpact.Play();
+
+
+            }
+
+                foreach (IActor Actor in listActors)// Laisser la boucle pour le multiball
             {
 
                 if (Actor is Brick)
