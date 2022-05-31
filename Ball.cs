@@ -131,12 +131,15 @@ namespace Lopale
             {
                 this.Position = new Vector2(this.Position.X, 0);
                 this.vy = 0 - this.vy;
+                this.BallLost = true;
+                this.ToRemove = true;
                 //sndImpact.Play();
+                //Debug.WriteLine("Plafond");
             }
             if (this.Position.Y + this.BoundingBox.Height > Screen.Height)
             {
 //                servLife.Subtract(1);
-                Debug.WriteLine("sol");
+                //Debug.WriteLine("sol");
                 this.Position = new Vector2(this.Position.X, Screen.Height - this.BoundingBox.Height);
                 this.vy = 0 - this.vy;
                 this.BallLost = true;
