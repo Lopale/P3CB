@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "akhQSt209SesduQQyF7rpZlrHY3ACW6wAOnMR/Z9vE9NTaqGA3fH3DnNCR8skP6Q/OzfJU44ZgzWh6109ze3mw==",
+  "dgSpecHash": "FGcusEHZRaZc3nqEd5bDIMAAUggVuyKCVMu5VFC1w/YhVQdTfTzwQ18TsuQU/qmP9FpMazkUlaFMZxe1SP04zQ==",
   "success": true,
-  "projectFilePath": "E:\\___Formation Developpeur JV\\_projet\\Projet 3 Casse Brik\\projet\\v2\\template.csproj",
+  "projectFilePath": "E:\\___Formation Developpeur JV\\_projet\\Projet 3 Casse Brik\\projet\\v2.1\\template.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/button.png</SourceFile>
-  <SourceTime>2018-03-16T05:19:08+01:00</SourceTime>
-  <DestFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/bin/DesktopGL/Content/button.xnb</DestFile>
-  <DestTime>2022-05-24T08:11:44.5606668+02:00</DestTime>
+  <SourceFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/button.png</SourceFile>
+  <SourceTime>2022-06-06T09:26:16.7233648+02:00</SourceTime>
+  <DestFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/bin/DesktopGL/Content/button.xnb</DestFile>
+  <DestTime>2022-06-06T09:26:39.3273112+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

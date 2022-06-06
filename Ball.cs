@@ -19,10 +19,6 @@ namespace Lopale
         IServiceScore servScore = ServiceLocator.GetService<IServiceScore>();
 
 
-        private readonly LifeService Life = new LifeService();
-
-        IServiceLife servLife = ServiceLocator.GetService<IServiceLife>();
-
         public int Type;
         public bool Moving;
         public bool BallLost;
@@ -119,13 +115,11 @@ namespace Lopale
             {
                 this.Position = new Vector2(0, this.Position.Y);
                 this.vx = 0 - this.vx;
-                //sndImpact.Play();
             }
             if (this.Position.X + this.BoundingBox.Width > Screen.Width)
             {
                 this.Position = new Vector2(Screen.Width - this.BoundingBox.Width, this.Position.Y);
                 this.vx = 0 - this.vx;
-                //sndImpact.Play();
             }
             if (this.Position.Y < 0)
             {
@@ -133,18 +127,15 @@ namespace Lopale
                 this.vy = 0 - this.vy;
                 this.BallLost = true;
                 this.ToRemove = true;
-                //sndImpact.Play();
                 //Debug.WriteLine("Plafond");
             }
             if (this.Position.Y + this.BoundingBox.Height > Screen.Height)
             {
-//                servLife.Subtract(1);
                 //Debug.WriteLine("sol");
                 this.Position = new Vector2(this.Position.X, Screen.Height - this.BoundingBox.Height);
                 this.vy = 0 - this.vy;
                 this.BallLost = true;
                 this.ToRemove = true;
-                //sndExplode.Play();
             }
             
 

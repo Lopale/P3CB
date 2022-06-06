@@ -10,7 +10,8 @@ namespace Lopale
         {
             Menu,
             Gameplay,
-            GameOver
+            GameOver,
+            Winner
         }
 
         protected MainGame mainGame;
@@ -36,6 +37,9 @@ namespace Lopale
                     break;
                 case SceneType.Gameplay:
                     CurrentScene = new SceneGameplay(mainGame);
+                    break;
+                case SceneType.Winner:
+                    CurrentScene = new SceneWinner(mainGame);
                     break;
                 case SceneType.GameOver:
                     CurrentScene = new SceneGameOver(mainGame);

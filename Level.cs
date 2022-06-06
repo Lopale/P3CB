@@ -35,21 +35,33 @@ namespace Lopale
                   if (col != "0")
                     {
 
-                        Brick bk = new Brick(contentManager.Load<Texture2D>("brick0" + col));
-                       
+                        if (col == "9")
+                        {
 
-                         bk.Position = new Vector2(
+                            BrickSpecial bk = new BrickSpecial(contentManager.Load<Texture2D>("brick0" + col));
+                            bk.Position = new Vector2(
+                               // Remplacer le 10 par de l'automatique
+                               ((Screen.Width) - (10 * bk.Texture.Width)) / 2 + nbCol * bk.Texture.Width,
+                               ((Screen.Height) - (10 * bk.Texture.Height)) / 2 + nbLine * bk.Texture.Height
+
+                           );
+                            Debug.WriteLine("Nb coup = "+bk.life);
+                            listBrick.Add(bk);
+                        }
+                        else { 
+                            Brick bk = new Brick(contentManager.Load<Texture2D>("brick0" + col));
+                        
+
+                              bk.Position = new Vector2(
                                   // Remplacer le 10 par de l'automatique
                                  ((Screen.Width) - (10 * bk.Texture.Width)) / 2 + nbCol * bk.Texture.Width,
                                  ((Screen.Height) - (10 * bk.Texture.Height)) / 2 + nbLine * bk.Texture.Height
 
-
-
-                                  //nbCol * bk.Texture.Width,
-                                  //nbLine * bk.Texture.Height
                              );
+                            listBrick.Add(bk);
+                        }
                         //listActors.Add(bk);
-                        listBrick.Add(bk);
+                        //listBrick.Add(bk);
 
                         Debug.WriteLine(col);
                     }

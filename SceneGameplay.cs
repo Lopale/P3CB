@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Media;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Text;
 
 namespace Lopale
@@ -32,10 +33,14 @@ namespace Lopale
         private Racket MyRacketHaut;
         private Ball ball;
         private Level level;
+        private Background background;
+        private Background backgroundNext;
         private SoundEffect sndImpact;
         private Song music;
 
         private bool gameStop = false;
+
+        private int nbBrick;
 
         public SceneGameplay(MainGame pGame) : base(pGame)
         {
@@ -44,10 +49,22 @@ namespace Lopale
 
         public override void Load()
         {
+            nbBrick = 0;
 
             music = mainGame.Content.Load<Song>("music/game");
             MediaPlayer.Play(music);
             MediaPlayer.IsRepeating = true;
+
+            // background
+            background = new Background(mainGame.Content.Load<Texture2D>("bkg"));
+            background.Position = new Vector2(0, 0);
+            listActors.Add(background);
+
+            backgroundNext = new Background(mainGame.Content.Load<Texture2D>("bkg"));
+            backgroundNext.Position = new Vector2(background.Texture.Width, 0);
+            listActors.Add(backgroundNext);
+
+
 
             // Debug.WriteLine("SceneGame Load");
             sndImpact = mainGame.Content.Load<SoundEffect>("sound/ball-bound");
@@ -89,7 +106,20 @@ namespace Lopale
 
             // Niveau
             level = new Level();
-            level.loadLevel("level01");
+
+            /* Lister les fichiers */
+            /* Créer une liste de niveau avec une valeur fait ou non, et lancer à chaque fois le premier niveau qui n'est pas complèté */
+            DirectoryInfo dir = new DirectoryInfo(@"E:\___Formation Developpeur JV\_projet\Projet 3 Casse Brik\projet\v2.1\Content\Levels");
+            FileInfo[] fichiers = dir.GetFiles();
+
+            foreach (FileInfo fichier in fichiers)
+            {
+                Debug.WriteLine(fichier.Name);
+            }
+            /* Fin liste niveau */
+
+
+            level.loadLevel("level20220523115715");
 
             base.Load();
         }
@@ -103,8 +133,20 @@ namespace Lopale
         public override void Update(GameTime gameTime)
         {
 
-            
-           
+
+        if (background.Position.X <= -1 * (background.Texture.Width))
+        {
+            background.Position = new Vector2(0, 0);
+        }
+        if (backgroundNext.Position.X <= 0)
+        {
+            backgroundNext.Position = new Vector2(backgroundNext.Texture.Width, 0);
+        }
+
+        background.deplacement();
+        backgroundNext.deplacement();
+
+
             Rectangle Screen = mainGame.Window.ClientBounds;
 
 
@@ -123,6 +165,7 @@ namespace Lopale
             foreach (IActor brick in level.listBrick)// Laisser la boucle pour le multiball
             {
                listActors.Add(brick);
+                nbBrick++;
             }
             level.listBrick.Clear();
 
@@ -180,8 +223,11 @@ namespace Lopale
                 foreach (IActor Actor in listActors)// Laisser la boucle pour le multiball
             {
 
+               
+
                 if (Actor is Brick)
                 {
+
                     Brick br = (Brick)Actor;
                     if (Utils.CollideByBox(br, ball))
                     {
@@ -197,9 +243,44 @@ namespace Lopale
                             servScore.Add(10);
                             br.ToRemove = true;
                             sndBreak.Play();
+
+                            nbBrick = nbBrick - 1;
+                        }
+                    }
+
+                }
+
+
+
+
+                if (Actor is BrickSpecial)
+                {
+                    BrickSpecial br = (BrickSpecial)Actor;
+
+                    
+                        br.deplacement(5);
+
+
+                    if (Utils.CollideByBox(br, ball))
+                    {
+                        //br.TouchedBy(ball);
+                        br.life = br.life - 1;
+                        ball.TouchedBy(br);
+                        //br.TouchedBy(ball);
+                        ball.vy = 0 - ball.vy;
+                        sndImpact.Play();
+
+                        if (br.life <= 0)
+                        {
+                            servScore.Add(10);
+                            br.ToRemove = true;
+                            sndBreak.Play();
+                            nbBrick = nbBrick - 1;
                         }
                     }
                 }
+
+
             }
 
             //oldKBState = newKBState;
@@ -210,6 +291,7 @@ namespace Lopale
                 ball.BallLost = false;
                 servLife.Subtract(1);
                 gameStop = true;
+                sndExplode.Play();
             }
             if (servLife.GetLife() <= 0)
             {
@@ -234,6 +316,13 @@ namespace Lopale
             }
 
 
+                Debug.WriteLine("nb de Bricks : "+nbBrick );
+
+            if (nbBrick <= 0)
+            {
+                mainGame.gameState.ChangeScene(GameState.SceneType.Winner);
+            }
+
             Clean();
 
              base.Update(gameTime);
@@ -248,17 +337,23 @@ namespace Lopale
                   new Vector2(1, 1),
                   Color.White);
             */
+
+            Rectangle Screen = mainGame.Window.ClientBounds; // Taille de l'écran
+
+
+            //mainGame.spriteBatch.Draw(background.imgBackground, new Vector2(0,0), Color.White);
+
+            base.Draw(gameTime);
             mainGame.spriteBatch.DrawString(AssetManager.MainFont,
                 servScore.DisplayScore(),
-                new Vector2(1,380),
+                new Vector2(10,Screen.Height-40),
                 Color.White);
 
             mainGame.spriteBatch.DrawString(AssetManager.MainFont,
                    servLife.DisplayLife(),
-                  new Vector2(1, 350),
+                new Vector2(10, Screen.Height - 70),
                   Color.White);
 
-            base.Draw(gameTime);
 
         }
     }

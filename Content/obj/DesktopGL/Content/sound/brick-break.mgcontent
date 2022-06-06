@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/sound/brick-break.wav</SourceFile>
+  <SourceFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/sound/brick-break.wav</SourceFile>
   <SourceTime>2022-05-23T16:40:55.1505245+02:00</SourceTime>
-  <DestFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/bin/DesktopGL/Content/sound/brick-break.xnb</DestFile>
-  <DestTime>2022-05-27T10:05:13.9835334+02:00</DestTime>
+  <DestFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/bin/DesktopGL/Content/sound/brick-break.xnb</DestFile>
+  <DestTime>2022-06-02T10:37:04.4333946+02:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

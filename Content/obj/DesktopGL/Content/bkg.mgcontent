@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/ball-basic.png</SourceFile>
-  <SourceTime>2022-05-19T15:37:36.796265+02:00</SourceTime>
-  <DestFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/bin/DesktopGL/ball-basic.xnb</DestFile>
-  <DestTime>2022-06-02T10:44:22.4440817+02:00</DestTime>
+  <SourceFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/bkg.jpg</SourceFile>
+  <SourceTime>2022-06-02T16:34:11.9519972+02:00</SourceTime>
+  <DestFile>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/bin/DesktopGL/Content/bkg.xnb</DestFile>
+  <DestTime>2022-06-02T16:34:12.8869498+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

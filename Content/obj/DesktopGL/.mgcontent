@@ -4,26 +4,26 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/ball-basic.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick01.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick02.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick03.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick04.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick05.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick06.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick07.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick08.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/brick09.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/button.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/explode.wav</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/File.spritefont</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/meteor.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/music/game.mp3</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/music/menu.mp3</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/racket-basic.png</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/sound/ball-bound.wav</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/sound/brick-break.wav</File>
-    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2/Content/sound/explode.wav</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/ball-basic.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/bkg.jpg</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/brick01.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/brick02.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/brick03.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/brick04.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/brick05.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/brick06.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/brick07.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/brick08.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/brick09.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/button.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/File.spritefont</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/meteor.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/music/game.mp3</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/music/menu.mp3</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/racket-basic.png</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/sound/ball-bound.wav</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/sound/brick-break.wav</File>
+    <File>E:/___Formation Developpeur JV/_projet/Projet 3 Casse Brik/projet/v2.1/Content/sound/explode.wav</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

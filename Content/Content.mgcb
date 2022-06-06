@@ -25,6 +25,18 @@
 /processorParam:TextureFormat=Color
 /build:ball-basic.png
 
+#begin bkg.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:bkg.jpg
+
 #begin brick01.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -144,12 +156,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:button.png
-
-#begin explode.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:explode.wav
 
 #begin File.spritefont
 /importer:FontDescriptionImporter

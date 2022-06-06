@@ -181,11 +181,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\___Formation Developpeur JV\\_projet\\Projet 3 Casse Brik\\projet\\v2\\template.csproj",
+      "projectUniqueName": "E:\\___Formation Developpeur JV\\_projet\\Projet 3 Casse Brik\\projet\\v2.1\\template.csproj",
       "projectName": "template",
-      "projectPath": "E:\\___Formation Developpeur JV\\_projet\\Projet 3 Casse Brik\\projet\\v2\\template.csproj",
+      "projectPath": "E:\\___Formation Developpeur JV\\_projet\\Projet 3 Casse Brik\\projet\\v2.1\\template.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "E:\\___Formation Developpeur JV\\_projet\\Projet 3 Casse Brik\\projet\\v2\\obj\\",
+      "outputPath": "E:\\___Formation Developpeur JV\\_projet\\Projet 3 Casse Brik\\projet\\v2.1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

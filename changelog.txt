@@ -15,41 +15,36 @@ Un éditeur de niveau (qui peut être programmé en Love2D)
 -------------------------------------------------------------------------------------------------------
 
 /* Aspect Technique */
-Découper en class (controle, player, level, ball, brique)
-Créer un service locator pour les touches
+X Découper en class (controle, player, level, ball, brique)
+X Créer un service locator pour les touches
 
 
 
 /* Minimal */
 
   Un menu de choix des niveaux
-  Déplacer la raquette a gauche et à droite
-	Au clavier
-  	  Au pad
-	  A la souris ?
-La raquette ne dépasse pas de l'écran
-Tant qu'elle n'est pas lancé la balle suit le joueur
-  Lancer la balle
-	Barre espace
-	  Bouton A
-	  Click gauche ?
-
-Si la balle est tiré sur la gauche de l'écran elle part à gauche
-Si la balle est tiré sur la droite de l'écran elle part à droite
+  X Déplacer la raquette a gauche et à droite
+	X La raquette ne dépasse pas de l'écran
+X Tant qu'elle n'est pas lancé la balle suit le joueur
+X   Lancer la balle
+	X Barre espace
+	  
+X Si la balle est tiré sur la gauche de l'écran elle part à gauche
+X Si la balle est tiré sur la droite de l'écran elle part à droite
   Plus la balle est proche d'un bord plus l'angle est important
-Balle qui rebondi sur les côté
-Balle qui rebondi sur la raquette
+X Balle qui rebondi sur les côté
+X Balle qui rebondi sur la raquette
   Balle qui rebondi avec un angle différent sur la raquette
-Le rebond de la balle provoque un son
-Balle qui disparait une fois le sol atteinds
-  Supprimer une balle de la quantité de balle disponible quand une balle atteint le sol
-Charger les brique d'un niveau textuel
-Les brique se détruisent au contact da la balle
-  Détruitre une brique incrémente le score
+X Le rebond de la balle provoque un son
+X Balle qui disparait une fois le sol atteinds
+X   Supprimer une balle de la quantité de balle disponible quand une balle atteint le sol
+X Charger les brique d'un niveau textuel
+X Les brique se détruisent au contact da la balle
+X   Détruitre une brique incrémente le score
   Détuire toutes les brique d'un niveau le fait gagnier
-Détuire une brique provoque un son 
+X Détuire une brique provoque un son 
   Appuyer sur Esc ferme le jeu
-Fond d'écran animé
+X Fond d'écran animé
 
   Un générateur de niveau :
   X Version 1 : juste des 0 et des 1 pour absence / Présence de brique
