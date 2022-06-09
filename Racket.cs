@@ -15,16 +15,11 @@ namespace Lopale
         Rectangle Screen = ServiceLocator.GetService<GameWindow>().ClientBounds;
 
 
-        public int Life;
         IServiceControl servControl = ServiceLocator.GetService<IServiceControl>();
         public Racket(Texture2D pTexture) : base(pTexture)
         {
-            Life = 100;
-
             servControl.PressRight();
             servControl.PressLeft();
-
-
 
         }
 

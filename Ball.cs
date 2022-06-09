@@ -16,16 +16,11 @@ namespace Lopale
         IServiceControl servControl = ServiceLocator.GetService<IServiceControl>();
         Rectangle Screen = ServiceLocator.GetService<GameWindow>().ClientBounds;
 
-        IServiceScore servScore = ServiceLocator.GetService<IServiceScore>();
-
-
-        public int Type;
-        public bool Moving;
+        protected bool Moving;
         public bool BallLost;
         public Ball(Texture2D pTexture) : base(pTexture)
         {
 
-            Type = 1; // Type de ball normal
             Moving = false; // La ball est en déplacement ou non
             BallLost = false;
 
@@ -41,11 +36,6 @@ namespace Lopale
             if (pBy is Racket)
             {
                 Debug.WriteLine("Ball touche Racket");
-            }
-            if (pBy is Brick)
-            {
-                //Debug.WriteLine("Ball touche Brick");
-                //boudingBallBrick();
             }
         }
 

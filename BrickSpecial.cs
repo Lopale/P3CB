@@ -12,7 +12,6 @@ namespace Lopale
         Rectangle Screen = ServiceLocator.GetService<GameWindow>().ClientBounds;
         public BrickSpecial(Texture2D pTexture) : base(pTexture)
         {
-
             vx = 5;
         }
 

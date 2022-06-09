@@ -45,7 +45,7 @@ namespace Lopale
                                ((Screen.Height) - (10 * bk.Texture.Height)) / 2 + nbLine * bk.Texture.Height
 
                            );
-                            Debug.WriteLine("Nb coup = "+bk.life);
+  //                          Debug.WriteLine("Nb coup = "+bk.life);
                             listBrick.Add(bk);
                         }
                         else { 
@@ -69,12 +69,12 @@ namespace Lopale
 
 
 
-                    Debug.WriteLine("L'id à la ligne {0} et colonne {1} est {2}", nbLine, nbCol, col);
+                    //Debug.WriteLine("L'id à la ligne {0} et colonne {1} est {2}", nbLine, nbCol, col);
                     nbCol++;
                 }
                 nbLine++;
             }
-            Debug.WriteLine(data);
+//            Debug.WriteLine(data);
 
         }
 

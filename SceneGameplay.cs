@@ -16,31 +16,31 @@ namespace Lopale
 
     class SceneGameplay : Scene
     {
+
+        private Racket MyRacket;
+        private Racket MyRacketHaut;
+        private Ball ball;
+        private Level level;
+        
+        private Background background;
+        private Background backgroundNext;
+
+        private SoundEffect sndImpact;
+        private SoundEffect sndBreak;
+        private SoundEffect sndExplode;
+        
+        private Song music;
+
+        private bool gameStop = false;
+
+        private int nbBrick;
+
         private readonly ScoreService Score = new ScoreService();
         private readonly ControlService Control = new ControlService();
         private readonly LifeService Life = new LifeService();
         IServiceScore servScore = ServiceLocator.GetService<IServiceScore>();
         IServiceControl servControl = ServiceLocator.GetService<IServiceControl>();
         IServiceLife servLife = ServiceLocator.GetService<IServiceLife>();
-
-        private KeyboardState oldKBState;
-
-
-        private SoundEffect sndBreak;
-        private SoundEffect sndExplode;
-
-        private Racket MyRacket;
-        private Racket MyRacketHaut;
-        private Ball ball;
-        private Level level;
-        private Background background;
-        private Background backgroundNext;
-        private SoundEffect sndImpact;
-        private Song music;
-
-        private bool gameStop = false;
-
-        private int nbBrick;
 
         public SceneGameplay(MainGame pGame) : base(pGame)
         {
@@ -71,12 +71,7 @@ namespace Lopale
             sndBreak = mainGame.Content.Load<SoundEffect>("sound/brick-break");
             sndExplode = mainGame.Content.Load<SoundEffect>("sound/explode");
 
-
-            oldKBState = Keyboard.GetState();
-
             Rectangle Screen = mainGame.Window.ClientBounds; // Taille de l'écran
-
-
 
             // Racket
             MyRacket = new Racket(mainGame.Content.Load<Texture2D>("racket-basic"));
@@ -119,7 +114,7 @@ namespace Lopale
             /* Fin liste niveau */
 
 
-            level.loadLevel("level20220523115715");
+            level.loadLevel("level01");
 
             base.Load();
         }
@@ -146,8 +141,7 @@ namespace Lopale
         background.deplacement();
         backgroundNext.deplacement();
 
-
-            Rectangle Screen = mainGame.Window.ClientBounds;
+        Rectangle Screen = mainGame.Window.ClientBounds;
 
 
 
@@ -231,10 +225,8 @@ namespace Lopale
                     Brick br = (Brick)Actor;
                     if (Utils.CollideByBox(br, ball))
                     {
-                        //br.TouchedBy(ball);
                         br.life = br.life - 1;
                         ball.TouchedBy(br);
-                        //br.TouchedBy(ball);
                         ball.vy = 0 - ball.vy;
                         sndImpact.Play();
 
@@ -256,24 +248,20 @@ namespace Lopale
                 if (Actor is BrickSpecial)
                 {
                     BrickSpecial br = (BrickSpecial)Actor;
-
                     
-                        br.deplacement(5);
-
+                    br.deplacement(5);
 
                     if (Utils.CollideByBox(br, ball))
                     {
-                        //br.TouchedBy(ball);
+                        ball.vy = 0 - ball.vy;
                         br.life = br.life - 1;
                         ball.TouchedBy(br);
-                        //br.TouchedBy(ball);
-                        ball.vy = 0 - ball.vy;
                         sndImpact.Play();
 
                         if (br.life <= 0)
                         {
-                            servScore.Add(10);
                             br.ToRemove = true;
+                            servScore.Add(10);
                             sndBreak.Play();
                             nbBrick = nbBrick - 1;
                         }

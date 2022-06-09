@@ -37,11 +37,11 @@ X Balle qui rebondi sur la raquette
   Balle qui rebondi avec un angle différent sur la raquette
 X Le rebond de la balle provoque un son
 X Balle qui disparait une fois le sol atteinds
-X   Supprimer une balle de la quantité de balle disponible quand une balle atteint le sol
+X Supprimer une balle de la quantité de balle disponible quand une balle atteint le sol
 X Charger les brique d'un niveau textuel
 X Les brique se détruisent au contact da la balle
-X   Détruitre une brique incrémente le score
-  Détuire toutes les brique d'un niveau le fait gagnier
+X Détruitre une brique incrémente le score
+X Détuire toutes les brique d'un niveau le fait gagnier
 X Détuire une brique provoque un son 
   Appuyer sur Esc ferme le jeu
 X Fond d'écran animé
